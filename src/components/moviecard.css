@@ -1,0 +1,44 @@
+.card-front:hover{
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(10px 10px 10px black);
+   transition: 0.3s ease; 
+}
+
+.card-front:hover img{
+    filter: grayscale();
+}
+.f-theatres{
+    width: 90vw;
+}
+.f-show{
+    width: 20vw;
+    color: white;
+}
+.card-con{  
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+}
+.card-front{
+    display: flex;
+    flex-direction: column;
+}
+.card-front img{
+    border-radius: 10px;
+    z-index: -1;
+}
+.deets{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.date{
+    font-size: 1.1em;
+    margin-bottom: 3px;
+}
