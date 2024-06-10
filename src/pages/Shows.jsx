@@ -62,13 +62,13 @@ export const Shows = () => {
       )}
       <div>
         {theatreid ? (
-            <div className="card-container">
-              <div className="cards">
+          <div className="card-container">
+            <div className="cards">
               {theatreList.map((theatre) => (
-                <TheatreShowCard key={theatre._id} theatre={theatre}/>
+                <TheatreShowCard key={theatre._id} theatre={theatre} />
               ))}
             </div>
-            </div>
+          </div>
         ) : (
           <div>
             <div className="card-conatiner">
@@ -95,7 +95,7 @@ export const Shows = () => {
                 ""
               )}
             </div>
-            
+
             <div className="card-container">
               {theatreList["Cinepolis"].length > 0 ? (
                 <div className="cards">

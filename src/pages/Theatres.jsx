@@ -15,7 +15,7 @@ export const Theatres = () => {
         setTheatres(res.data);
         setLoading(false);
       });
-  });
+  },[]);
   if (loading)
     return (
       <div>
